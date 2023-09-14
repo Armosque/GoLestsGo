@@ -5,5 +5,5 @@ import (
 )
 
 func main (){
-	variables.MostrarEnteros()
+	variables.ConvertirATexto(10)
 }
