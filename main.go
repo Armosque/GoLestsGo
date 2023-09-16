@@ -1,10 +1,11 @@
 package main
 
 import (
+	"github.com/armosque/Godesde0/files"
 	//"github.com/armosque/Godesde0/iteraciones"
 	//"github.com/armosque/Godesde0/teclado"
 	//"github.com/armosque/Godesde0/variables"
-	"github.com/armosque/Godesde0/ejercicios"
+	//"github.com/armosque/Godesde0/ejercicios"
 	//"fmt"
 	//"runtime"
 )
@@ -38,6 +39,11 @@ func main (){
 
 	iteraciones.Iterar()*/
 
-	ejercicios.TablaMultiplicar()
+	//fmt.Println(ejercicios.TablaMultiplicar())
 
+	//files.GrabarTabla()
+
+	//files.AgregarTablas()
+
+	files.LeerArchivo()
 }
