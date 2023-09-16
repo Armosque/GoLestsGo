@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/armosque/Godesde0/files"
+	"github.com/armosque/Godesde0/arreglos_slices"
+	//"github.com/armosque/Godesde0/funciones"
+	//"github.com/armosque/Godesde0/files"
 	//"github.com/armosque/Godesde0/iteraciones"
 	//"github.com/armosque/Godesde0/teclado"
 	//"github.com/armosque/Godesde0/variables"
@@ -45,5 +47,15 @@ func main (){
 
 	//files.AgregarTablas()
 
-	files.LeerArchivo()
+	//files.LeerArchivo()
+
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencial(20)
+
+	//arreglos_slices.MostrarArreglos()
+
+	arreglos_slices.Capacidad()
 }
