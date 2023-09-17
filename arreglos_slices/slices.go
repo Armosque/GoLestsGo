@@ -18,3 +18,13 @@ func MostrarSlices(){
 
 }
 
+func Capacidad(){
+	elementos:= make([]int, 5, 20)
+	fmt.Printf("Capacidad: %d\nLongitud: %d\n", cap(elementos), len(elementos))
+
+	nums:= make([]int, 0,0)
+	for i:=0; i<100; i++{
+		nums = append(nums, i)
+	}
+	fmt.Printf("Capacidad: %d\nLongitud: %d\n", cap(nums), len(nums))
+}

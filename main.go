@@ -1,7 +1,12 @@
 package main
 
 import (
-	"github.com/armosque/Godesde0/arreglos_slices"
+	e "github.com/armosque/Godesde0/ejerc_interfaces"
+	"github.com/armosque/Godesde0/modelos"
+	
+	//"github.com/armosque/Godesde0/users"
+	//"github.com/armosque/Godesde0/arreglos_slices"
+	//"github.com/armosque/Godesde0/mapas"
 	//"github.com/armosque/Godesde0/funciones"
 	//"github.com/armosque/Godesde0/files"
 	//"github.com/armosque/Godesde0/iteraciones"
@@ -57,5 +62,15 @@ func main (){
 
 	//arreglos_slices.MostrarArreglos()
 
-	arreglos_slices.Capacidad()
+	//arreglos_slices.Capacidad()
+
+	//mapas.MostrarMapas()
+
+	//users.NuevoUsuario()
+	
+	Pedro:=new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Ana:=new(modelos.Mujer)
+	e.HumanosRespirando(Ana)
 }
