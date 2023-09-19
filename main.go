@@ -1,8 +1,13 @@
 package main
 
 import (
-	e "github.com/armosque/Godesde0/ejerc_interfaces"
-	"github.com/armosque/Godesde0/modelos"
+	m "github.com/armosque/Godesde0/middleweres"
+	//"github.com/armosque/Godesde0/webserver"
+	//g "github.com/armosque/Godesde0/goroutines"
+	//"fmt"
+	//"github.com/armosque/Godesde0/defer_panic"
+	/*e "github.com/armosque/Godesde0/ejerc_interfaces"
+	"github.com/armosque/Godesde0/modelos"*/
 	
 	//"github.com/armosque/Godesde0/users"
 	//"github.com/armosque/Godesde0/arreglos_slices"
@@ -68,9 +73,22 @@ func main (){
 
 	//users.NuevoUsuario()
 	
-	Pedro:=new(modelos.Hombre)
+	/*Pedro:=new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 
 	Ana:=new(modelos.Mujer)
-	e.HumanosRespirando(Ana)
+	e.HumanosRespirando(Ana)*/
+
+	//defer_panic.Defer()
+	/*canal1:=make(chan bool)
+	go g.MiNombreLento("Ricardo", canal1)
+
+	defer func(){
+		<-canal1 
+	}()
+	fmt.Println("Estoy aquí")*/
+	
+    //webserver.MyWebServe()
+
+	m.MiMiddlewere()
 }
